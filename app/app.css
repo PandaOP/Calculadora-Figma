@@ -88,7 +88,7 @@ body{
     margin-top: 40px;
 }
 
-.contenedor_botones .button{
+.contenedor_botones .button, .operador, .numero{
 
     font-family: 'Roboto';
     font-style: normal;
@@ -129,7 +129,7 @@ body{
     justify-content: flex-start;
 }
 
-.but_0{
+.but_0 .numero{
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -154,7 +154,7 @@ body{
     color: #FFFFFF;
 }
 
-.igual{
+.igual .operador{
     display: flex;
     flex-direction: column;
     justify-content: center;

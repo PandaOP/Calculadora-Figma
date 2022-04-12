@@ -14,7 +14,7 @@
             <div class="pantalla">
                 <div class="num_operaciones">
                     
-                    <div class="pantalla__top" id="pantalla-operation">0</div>
+                    <div class="pantalla__top" id="historial-value">0</div>
                 </div>
                 
                 <div class="pantalla__content" id="pantalla-result">0</div>
@@ -22,41 +22,48 @@
 
             <div class="contenedor_botones" >
                
-                    <button class="button" id="CE">CE</button>
-                    <button class="button">
+                    <button class="operador" id="limpiar">CE</button>
+                    <button class="operador" id="eliminar">
                         <img src="img/eliminar.svg" alt="" class="eliminar">
                     </button>
                     
-                    <button class="button" id="dividir">/</button>
-                    <button class="button" id="multiplicar">*</button>
-                    <button class="button" id="siete">7</button>
-                    <button class="button" id="ocho">8</button>
-                    <button class="button" id="nueve">9</button>
-                    <button class="button" id="menos">-</button>
-                    <button class="button" id="cuatro">4</button>
-                    <button class="button" id="cinco">5</button>
-                    <button class="button" id="seis">6</button>
-                    <button class="button" id="mas">+</button>
+                    <button class="operador" id="/">/</button>
+                    <button class="operador" id="*">*</button>
+                    <button class="numero" id="7">7</button>
+                    <button class="numero" id="8">8</button>
+                    <button class="numero" id="9">9</button>
+                    <button class="operador" id="-">-</button>
+                    <button class="numero" id="4">4</button>
+                    <button class="numero" id="5">5</button>
+                    <button class="numero" id="6">6</button>
+                    <button class="operador" id="+">+</button>
                     <div class="boton_inferio">
                         <div class="ultimos">
                             <div class="ulti1">
-                                <button class="button" id="uno">1</button>
-                                <button class="button" id="dos">2</button>
-                                <button class="button" id="tres">3</button>
+                                <button class="numero" id="1">1</button>
+                                <button class="numero" id="2">2</button>
+                                <button class="numero" id="3">3</button>
                             </div>
                             <div class="ulti2">
-                                <button class="but_0" id="cero">0</button>
-                                <button class="button" id="punto">.</button>
+                                <div class="but_0">
+                                    <button class="numero" id="0">0</button>
+                                </div>
+                                
+                                <button class="numero" id=".">.</button>
                             </div>
                         </div>
-                        <button class="igual" id="igual">=</button>
+                        <div class="igual">
+                            <button class="operador" id="=">=</button>
+                        </div>
+
+                        
                     </div>
 
             </div>
         </div>
     </div>
 
-
+<script src="operadores.js"></script>
     
 </body>
 </html>
